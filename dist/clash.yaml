@@ -132,15 +132,7 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.16.174.117"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
-    type: "trojan"
-    server: "130.250.137.171"
+    server: "104.17.111.4"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -148,51 +140,7 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.18.152.219"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+Xerox"
-    type: "vless"
-    server: "13.143.184.226"
-    port: 443
-    uuid: "80f72027-2201-4541-9abb-7070c9b0869e"
-    network: "tcp"
-    sni: "msc1.serverslocal.ru"
-    udp: true
-
-  - name: "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-    type: "vless"
-    server: "pol2.serverslocal.ru"
-    port: 443
-    uuid: "80f72027-2201-4541-9abb-7070c9b0869e"
-    network: "tcp"
-    sni: "pol2.serverslocal.ru"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91msm.ru%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "vless"
-    server: "79.137.192.2"
-    port: 443
-    uuid: "2412bd96-925b-43f2-81d1-0ed4f0793699"
-    network: "tcp"
-    sni: "cdn.cloudflare.steamstatic.com"
-    udp: true
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1Melbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "vless"
-    server: "213.183.55.153"
-    port: 8443
-    uuid: "9e3132b8-b595-444a-833a-2de44789f9d7"
-    network: "ws"
-    sni: "shephe.dpdns.org"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
+    server: "104.26.14.137"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -200,7 +148,15 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.18.152.210"
+    server: "104.17.111.8"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "trojan"
+    server: "159.112.235.52"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -208,15 +164,7 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "104.16.174.143"
-    port: 443
-    password: "humanity"
-    sni: "www.ignitelimit.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "trojan"
-    server: "104.18.152.230"
+    server: "104.18.152.233"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
@@ -232,28 +180,90 @@ proxies:
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "trojan"
-    server: "198.41.223.96"
+    server: "join-telegram-channel-tirexnet.trex.kdns.fr"
     port: 443
     password: "humanity"
     sni: "www.ignitelimit.com"
     udp: true
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "us4.998998.best"
+    type: "trojan"
+    server: "104.18.152.149"
     port: 443
-    uuid: "3c6d1933-b22a-484b-ac8a-63e24f5fba75"
-    network: "ws"
-    sni: "server14.9966338.xyz"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+Xerox"
-    type: "vless"
-    server: "13.143.186.29"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.152.207"
     port: 443
-    uuid: "3e2591b2-4739-4c59-b540-344f0b6505ac"
-    network: "tcp"
-    sni: "st2.megabitvpn.org"
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.174.33"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.18.22.63"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.174.101"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
+    type: "trojan"
+    server: "130.250.137.171"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.17.111.1"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.21.33.59"
+    port: 443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "trojan"
+    server: "104.16.174.148"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
+    udp: true
+
+  - name: "%E7%AB%8B%E9%99%B6%E5%AE%9B+V2CROSS.COM"
+    type: "trojan"
+    server: "86.38.214.205"
+    port: 443
+    password: "humanity"
+    sni: "www.ignitelimit.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-173.244.56.9-0090"
@@ -1117,22 +1127,6 @@ proxies:
     cipher: "aes-256-gcm"
     password: "faBAoD54k87UJG7"
 
-  - name: "🇨🇳CN-210.75.24.222-0025"
-    type: "vmess"
-    server: "210.75.24.222"
-    port: 443
-    cipher: "auto"
-    uuid: "1bbf1ef7-3056-4160-9cab-491e024de705"
-    alterId: 0
-    network: "ws"
-
-  - name: "%F0%9F%87%B8%F0%9F%87%ACSG-139.99.68.21-0021"
-    type: "ss"
-    server: "139.99.68.21"
-    port: 6379
-    cipher: "aes-256-gcm"
-    password: "zDNVedRFPQexG9v"
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1154,20 +1148,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+Xerox"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91msm.ru%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1Melbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+Xerox"
   - name: Auto
     type: url-test
     proxies:
@@ -1187,20 +1181,20 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
       - "%E5%8A%A0%E6%8B%BF%E5%A4%A7+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+Xerox"
-      - "%E4%BC%8A%E6%9C%97+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91msm.ru%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1Melbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+Xerox"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
