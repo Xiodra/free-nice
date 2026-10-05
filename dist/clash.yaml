@@ -130,14 +130,6 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "trojan"
-    server: "199.232.78.160"
-    port: 443
-    password: "mitivpn"
-    sni: "ssl.fastly.com"
-    udp: true
-
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
     server: "saas.sin.fan"
@@ -147,31 +139,13 @@ proxies:
     sni: "snip.edgeoneai.cc.cd"
     udp: true
 
-  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+  - name: "%E7%A6%8F%E5%BB%BA%E7%9C%81%E7%A6%8F%E5%B7%9E%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
     type: "vless"
-    server: "pl-waw.dontblockmepls.com"
-    port: 2063
-    uuid: "b18d5990-96eb-4587-a386-7f8ef7591e6a"
+    server: "112.49.63.11"
+    port: 33102
+    uuid: "0f47a872-b140-46f5-aef8-f46993f5fc01"
     network: "tcp"
-    sni: "rusbid.de"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "deepl.com"
-    port: 8880
-    uuid: "b1b99d33-8df1-4c74-b140-28941b43a4d2"
-    network: "ws"
-    sni: "deepl.com"
-    udp: true
-
-  - name: "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
-    type: "vless"
-    server: "us22.sofast.live"
-    port: 58011
-    uuid: "0afc6426-606c-48e7-bd70-3c424a416842"
-    network: "tcp"
-    sni: "us22.sofast.live"
+    sni: "sgg.knhqf.com"
     udp: true
 
   - name: "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
@@ -183,22 +157,40 @@ proxies:
     sni: "repo1.maven.org"
     udp: true
 
-  - name: "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "91.108.249.200"
-    port: 705
-    uuid: "87fd990d-ca93-440a-bbd4-e8281c4a0910"
-    network: "grpc"
-    sni: "www.kayak.com"
+    server: "172.67.76.40"
+    port: 443
+    uuid: "d342d11e-d224-4463-b982-532309285094"
+    network: "ws"
+    sni: "ccc.010304.xyz"
     udp: true
 
-  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+  - name: "%E5%B9%BF%E4%B8%9C%E7%9C%81%E4%B8%9C%E8%8E%9E%E5%B8%82+%E8%81%94%E9%80%9A"
     type: "vless"
-    server: "31.77.109.35"
-    port: 443
-    uuid: "87fd990d-ca93-440a-bbd4-e8281c4a0910"
+    server: "27.44.143.169"
+    port: 33102
+    uuid: "0f47a872-b140-46f5-aef8-f46993f5fc01"
     network: "tcp"
-    sni: "d3-de1.cloud-cdn.xyz"
+    sni: "sgg.knhqf.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "distant.sugarcanecoffee.top"
+    port: 10654
+    uuid: "397bdc3b-9204-48d7-9003-5360864eecff"
+    network: "tcp"
+    sni: "www.icloud.com"
+    udp: true
+
+  - name: "%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
+    type: "vless"
+    server: "129.211.188.184"
+    port: 8443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    network: "ws"
+    sni: "jp3.yohototo.top"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0074"
@@ -1130,6 +1122,13 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "pno0e2keji2gsfea"
 
+  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-82.38.31.46-0204"
+    type: "ss"
+    server: "82.38.31.46"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1150,14 +1149,13 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
+      - "%E7%A6%8F%E5%BB%BA%E7%9C%81%E7%A6%8F%E5%B7%9E%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
       - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B9%BF%E4%B8%9C%E7%9C%81%E4%B8%9C%E8%8E%9E%E5%B8%82+%E8%81%94%E9%80%9A"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0074"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0073"
       - "%F0%9F%87%BA%F0%9F%87%B8US-34.220.15.24-0069"
@@ -1165,6 +1163,7 @@ proxy-groups:
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-0071"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-0072"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0068"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-54.213.238.59-0409"
   - name: Auto
     type: url-test
     proxies:
@@ -1183,14 +1182,13 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
+      - "%E7%A6%8F%E5%BB%BA%E7%9C%81%E7%A6%8F%E5%B7%9E%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
       - "%E8%8D%B7%E5%85%B0+V2CROSS.COM"
-      - "%E4%BC%8A%E6%8B%89%E5%85%8B+V2CROSS.COM"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E5%B9%BF%E4%B8%9C%E7%9C%81%E4%B8%9C%E8%8E%9E%E5%B8%82+%E8%81%94%E9%80%9A"
+      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+      - "%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82+%E8%85%BE%E8%AE%AF%E4%BA%91"
       - "%F0%9F%87%BA%F0%9F%87%B8US-108.181.0.177-0074"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-108.181.118.10-0073"
       - "%F0%9F%87%BA%F0%9F%87%B8US-34.220.15.24-0069"
@@ -1198,6 +1196,7 @@ proxy-groups:
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-0071"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-185.156.47.97-0072"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-149.22.95.183-0068"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-54.213.238.59-0409"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
