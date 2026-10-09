@@ -130,76 +130,73 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "美国 CloudFlare节点"
-    type: "vmess"
-    server: "us16-4.998998.best"
+  - name: "%E9%A6%99%E6%B8%AF+%E9%98%BF%E9%87%8C%E4%BA%91"
+    type: "ss"
+    server: "47.85.168.157"
     port: 443
-    cipher: "auto"
-    uuid: "5504eaa8-1395-402f-8e0e-75ecd762e627"
-    alterId: 0
-    network: "ws"
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA="
 
-  - name: "%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
+  - name: "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E%E6%B4%9B%E6%9D%89%E7%9F%B6"
     type: "vless"
-    server: "s592.wagahaha.xyz"
+    server: "185.106.96.231"
     port: 10829
     uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
     network: "tcp"
-    sni: "u695098u4d99b056s591.csgfw.top"
+    sni: "u695098u99a93686s848.gogocs.xyz"
     udp: true
-
-  - name: "%E8%8B%B1%E5%9B%BD+%E6%A1%91%E5%BE%B7%E5%85%B0%E5%A4%A7%E5%AD%A6"
-    type: "vless"
-    server: "157.228.150.34"
-    port: 443
-    uuid: "df53b6c2-8005-475c-9eb9-74e1be785dc8"
-    network: "tcp"
-    sni: "addons.mozilla.org"
-    udp: true
-
-  - name: "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-    type: "vless"
-    server: "177.1.187.251"
-    port: 443
-    uuid: "318c935d-c195-41d3-99ad-9bbcfdab3386"
-    network: "tcp"
-    sni: "de2.srv.vbuste.ru"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-    type: "vless"
-    server: "distant.sugarcanecoffee.top"
-    port: 10654
-    uuid: "397bdc3b-9204-48d7-9003-5360864eecff"
-    network: "tcp"
-    sni: "www.icloud.com"
-    udp: true
-
-  - name: "美国 CloudFlare节点"
-    type: "vmess"
-    server: "cdn.sfacg.uk"
-    port: 2083
-    cipher: "auto"
-    uuid: "ac251237-576f-40c8-a543-554960c958b1"
-    alterId: 0
-    network: "ws"
 
   - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
     type: "vless"
-    server: "saas.sin.fan"
+    server: "162.159.135.234"
     port: 443
     uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
     network: "ws"
     sni: "snip.edgeoneai.cc.cd"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+Merit%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
-    type: "vless"
-    server: "tk1.high-speed-test-56424.me"
+  - name: "%E5%A5%A5%E5%9C%B0%E5%88%A9+V2CROSS.COM"
+    type: "trojan"
+    server: "212.183.88.136"
     port: 443
-    uuid: "37615d66-5467-44a3-bc23-f2c3bef7f761"
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    udp: true
+
+  - name: "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "jp.sofast.live"
+    port: 52683
+    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
     network: "tcp"
-    sni: "aws.amazon.com"
+    sni: "jp.sofast.live"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "172.64.158.170"
+    port: 443
+    uuid: "d342d11e-d224-4463-b982-532309285094"
+    network: "ws"
+    sni: "ccc.010304.xyz"
+    udp: true
+
+  - name: "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+    type: "vless"
+    server: "assets.halyvanedorogo.ru"
+    port: 11515
+    uuid: "cb8fbad5-4f14-55bc-a24a-3510f47f4b1b"
+    network: "tcp"
+    sni: "www.sony.com"
+    udp: true
+
+  - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "2.26.231.218"
+    port: 2063
+    uuid: "b18d5990-96eb-4587-a386-7f8ef7591e6a"
+    network: "tcp"
+    sni: "rusbid.de"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-140.82.63.79-0202"
@@ -1143,14 +1140,14 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "美国 CloudFlare节点"
-      - "%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
-      - "%E8%8B%B1%E5%9B%BD+%E6%A1%91%E5%BE%B7%E5%85%B0%E5%A4%A7%E5%AD%A6"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "美国 CloudFlare节点"
+      - "%E9%A6%99%E6%B8%AF+%E9%98%BF%E9%87%8C%E4%BA%91"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E%E6%B4%9B%E6%9D%89%E7%9F%B6"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+Merit%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
+      - "%E5%A5%A5%E5%9C%B0%E5%88%A9+V2CROSS.COM"
+      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-140.82.63.79-0202"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0134"
       - "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0083"
@@ -1176,14 +1173,14 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "美国 CloudFlare节点"
-      - "%E4%BA%9A%E5%A4%AA%E5%9C%B0%E5%8C%BA+V2CROSS.COM"
-      - "%E8%8B%B1%E5%9B%BD+%E6%A1%91%E5%BE%B7%E5%85%B0%E5%A4%A7%E5%AD%A6"
-      - "%E5%B7%B4%E8%A5%BF+V2CROSS.COM"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "美国 CloudFlare节点"
+      - "%E9%A6%99%E6%B8%AF+%E9%98%BF%E9%87%8C%E4%BA%91"
+      - "%E7%BE%8E%E5%9B%BD+%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E%E6%B4%9B%E6%9D%89%E7%9F%B6"
       - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
-      - "%E7%BE%8E%E5%9B%BD+Merit%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8"
+      - "%E5%A5%A5%E5%9C%B0%E5%88%A9+V2CROSS.COM"
+      - "%E5%8C%97%E4%BA%AC%E5%B8%82+%E7%99%BE%E5%BA%A6%E7%94%B5%E4%BF%A1%E8%8A%82%E7%82%B9"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E7%88%B1%E5%B0%94%E5%85%B0+V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-140.82.63.79-0202"
       - "%F0%9F%87%A8%F0%9F%87%A6CA-137.184.174.93-0134"
       - "%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0083"
