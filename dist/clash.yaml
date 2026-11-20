@@ -132,32 +132,19 @@ proxies:
 
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.45"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-    type: "ss"
     server: "202.50.253.27"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-    type: "ss"
-    server: "202.50.253.18"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
-  - name: "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "trojan"
-    server: "sclass-b1.catcat321.com"
-    port: 20051
-    password: "d7563108-615c-4338-a7bd-77f359869a4a"
-    sni: "hk.catxstar.com"
-    udp: true
+  - name: "瑞士 V2CROSS.COM"
+    type: "vmess"
+    server: "179.43.140.24"
+    port: 42831
+    cipher: "auto"
+    uuid: "a925a98c-ad7a-40c6-9fdf-130a1de69416"
+    alterId: 0
+    network: "tcp"
 
   - name: "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
     type: "vless"
@@ -168,14 +155,21 @@ proxies:
     sni: "mental-deprivation.ru"
     udp: true
 
-  - name: "瑞士 V2CROSS.COM"
-    type: "vmess"
-    server: "179.43.140.24"
-    port: 42831
-    cipher: "auto"
-    uuid: "a925a98c-ad7a-40c6-9fdf-130a1de69416"
-    alterId: 0
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
+    type: "vless"
+    server: "217.69.174.175"
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
     network: "tcp"
+    sni: "04535dt.us8.h1clayd.click"
+    udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0132"
     type: "ss"
@@ -1092,6 +1086,13 @@ proxies:
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
+  - name: "%F0%9F%87%BF%F0%9F%87%A6ZA-102.133.165.160-0185"
+    type: "ss"
+    server: "102.133.165.160"
+    port: 16233
+    cipher: "chacha20-ietf-poly1305"
+    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
+
 proxy-groups:
   - name: Proxy
     type: select
@@ -1113,11 +1114,10 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "瑞士 V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0132"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0068"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0053"
@@ -1127,6 +1127,7 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.18-0057"
       - "%F0%9F%87%BA%F0%9F%87%B8US-167.88.62.203-0109"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-185.176.206.9-0059"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-172.111.36.123-0119"
   - name: Auto
     type: url-test
     proxies:
@@ -1146,11 +1147,10 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
       - "瑞士 V2CROSS.COM"
+      - "%E8%8B%B1%E5%9B%BD+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0132"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0068"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0053"
@@ -1160,6 +1160,7 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.18-0057"
       - "%F0%9F%87%BA%F0%9F%87%B8US-167.88.62.203-0109"
       - "%F0%9F%87%AC%F0%9F%87%A7GB-185.176.206.9-0059"
+      - "%F0%9F%87%BA%F0%9F%87%B8US-172.111.36.123-0119"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
